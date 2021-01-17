@@ -1,12 +1,10 @@
-import React from 'react'
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
-import Main from './components/Main'
+import React from "react";
+import Timer from "./Timer";
 
 const App = () => (
-  <Router>
-    <Main />
-  </Router>
-)
+  <div className="app">
+    <Timer />
+  </div>
+);
 
 export default App;
